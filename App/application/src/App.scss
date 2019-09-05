@@ -1,0 +1,111 @@
+//Colors
+.backgroundRed{
+  background-color: red;
+}
+body{
+  background-color: #F1F1F1;
+}
+
+.navbar {
+  background-color: white;
+  a {
+    color: #dd6b18;
+    &:hover {
+      background-color: gray;
+      text-decoration: none;
+    }
+    &:active {
+      background-color: #f8f9fa; 
+    }
+  }
+}
+
+.title {
+  width: 100%;
+  height: 8vh;
+  background-color: #f8f9fa;
+  font-family: "Roboto", sans-serif;
+  padding: 13px 0px 0px 20px;
+  margin-bottom: 5vh;
+  color: #dd6b18;
+  border-bottom: 2px solid #d5d5d5;
+}
+
+.home {
+
+  .card {
+    margin: 0 auto;
+    box-shadow:0px 4px 27px -9px rgba(176,176,176,1);
+    .card-text{
+    }
+    .card-title{
+      font-size: 24px;
+      padding: 5px 0px;
+    }
+  }
+  .buttonrow {
+    padding: 8vh 0;
+  }
+
+  .button {
+    display: block;
+    background-color: #ffffff;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow:0px 4px 27px -9px rgba(176,176,176,1);
+    margin: 50px 0px;
+  }
+}
+
+.notifications{
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #dd6b18;
+  font-family: "Roboto", sans-serif;
+
+  .acceptButton{
+    background-color: #5FAC43;
+    color: white;
+  }
+  .declineButton{
+    background-color: #D34646;
+    color: white;
+  }
+}
+
+.agenda{
+  .datepicker-wrapper{
+    margin: 0 auto;
+  }
+  .react-datepicker-wrapper{
+    width: 100%;
+  }
+  .datepicker{
+    margin: 0 auto 1rem auto;
+    text-align: left;
+    background-color: white;
+  }
+  .react-datepicker-ignore-onclickoutside:active{
+    border:none!important;
+  }
+  .react-datepicker__input-container{
+    width: 100%;
+  }
+  .react-datepicker__close-icon{
+    float: right;
+  }
+  .hidden{
+    display: none;
+  }
+  .visable{
+    display: block;
+  }
+}
+
+
+
+
